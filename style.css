@@ -1,0 +1,246 @@
+@charset "UTF-8";
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, blockquote, pre, code, hr, img, form, fieldset, legend, label, textarea, span, em, strong, sub, sup, cite, table, tbody, td, tfoot, th, thead, tr, tt, dl, dt, dd, ol, ul, li {margin: 0; padding: 0;}
+
+body, html {
+	height:100%;
+	width:100%;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Signika', sans-serif;
+	color:#333;
+}
+
+body {
+	/*background-image:url(none);*/
+	background-position:center;
+	background-repeat:repeat;
+	background-attachment:fixed;
+}
+
+a {
+	text-decoration:none;
+	color:#333;
+	font-weight:600;
+	cursor: pointer;
+}
+
+p {
+	font-weight:300;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #666;
+    margin: 1em 0;
+	margin-left:15px;
+}
+
+/* Holds both the right and left column */
+#wrapper {
+	width:100%;
+	/*height:100%;*/
+}
+
+
+/* - - - - - - - - */
+/*   Left Column  */
+/* - - - - - - - - */
+
+#left {
+	background-color:#FFFF66;
+	position:fixed;
+	width:20%;
+	height:100%;
+	background: rgba(250, 250, 250, 0.5);
+	margin-top: 2%;
+}
+
+#logo img {
+	width:80%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* nav:							*/
+/* The wrapper for the navTable	*/
+#nav {
+	height:63%;
+}
+
+/* navTable:							*/
+/* The table that holds the navigation	*/
+#navTable {
+	width:80%;
+	margin:0 auto;
+}
+
+#navTable tr td{
+	padding:5px 0 5px 0;
+	font-size:18px;
+	border-bottom: solid 1px grey;
+}
+
+#navTable tr td a{
+	text-decoration:none;
+	color:#333;
+	font-weight:500;
+}
+
+#navTable tr td a:hover{
+	text-decoration:none;
+	font-weight:900;
+	color:#333;
+	
+-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-transition: font-weight .3s;
+       -moz-transition: font-weight .3s;
+         -o-transition: font-weight .3s;
+            transition: font-weight .3s;
+}
+
+
+#address {
+	width:80%;
+	margin:0 auto;
+	font-size:14px;
+}
+
+
+/* - - - - - - - - */
+/*   Right Column  */
+/* - - - - - - - - */
+#right {
+	position:relative;
+	left:20%;
+	width:80%;
+	min-height:100%;
+}
+
+.spacer {
+	width:100%;
+	height:30px;
+	text-align:center;
+	font-size:12px;
+	color:#999;
+}
+
+.line {
+	width:100%;
+}
+
+#facebook {
+	float:right;
+	padding:10px 20px 10px 0px;
+}
+
+#sliderWrapper {
+	padding:10px 0px 10px 0px;
+}
+
+.sectionContent {
+	padding:0px 20px 0px 20px;
+	font-size: 17px;
+}
+
+/* Board Table:								*/
+/* The table that holds all the the board	*/
+/*	members pictures / names / position		*/
+/*  in the "about" section.					*/
+	
+#boardTable {
+	width:100%;
+}
+
+#boardTable td {
+	padding: 30px 0px 30px 0px;
+	width:33%;
+}
+
+.boardPicture img {
+	alignment-adjust:central;
+	width:60%;
+}
+
+/* Name of Board Member */
+#boardTable td div {
+	text-align:center;
+	font-size:14px;
+}
+
+/* Position of Board Member*/
+#boardTable td div div {
+	font-size:18px;
+	font-weight:700;
+}
+
+.contactImage {
+	width:100%;
+	/* push to bottom of screen*/
+	padding-bottom:40px;
+}
+
+.contactImage img {
+	width:80%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/* Modals & Resources								*/
+/* Styling for the modals on Resources page		  	*/
+
+#scs_TAProgram .modal-header {
+	text-align:center;
+}
+
+#scs_TAProgram .modal-body {
+	padding:15px;
+}
+
+#scs_TAProgram .modal-body ul {
+	padding-left:15px;
+}
+
+
+/* Previous Board Members                   */
+/*   as a Modal Popup                       */
+.prevBoardList {
+	list-style-type:none;
+}
+
+
+/* Learnathon								*/
+/*     Information							*/
+#learnathon {
+	width:100%;
+	height:100%;
+}
+
+#content {
+	background-color:#FFF;
+	width:90%;
+	color:#666;
+	min-height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+	
+#header {
+	/*background-color:#FFF;*/
+	width:100%;
+	height:20%;
+}
+
+#header img {
+	width:100%;
+	text-align:center;
+}
+
+#info {
+	padding: 10px 100px 10px 100px;
+	font-size:20px;
+	text-align:center;
+}
